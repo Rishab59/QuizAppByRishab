@@ -453,7 +453,7 @@ submitBtn.addEventListener('click', () =>
 function scoreGenerator()
 {
     quiz.innerHTML = `
-        <h2>You answered ${score}/${quizData.length} questions correctly<br>No.of Unanswered : ${unAnswered}<br>Thanks for Coming !!!<br>Kindly inform to a volunteer</h2>
+        <h2>You answered ${score}/${quizData.length} questions correctly<br>No.of Unanswered : ${unAnswered}<br>Thanks for Coming !!!</h2>
         ` ;
     return ;
 }
